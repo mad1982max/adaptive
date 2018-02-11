@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700&subset=cyrillic');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+	/*background: green;*/
+}
+
+div, p, input, button {
+	box-sizing: border-box;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 1.6em;
+	line-height: 1.4em;
+}
+
+article {
+	width: 1170px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+}
+
+#first {
+	background: #e1de99 url('../images/bg1.jpg') no-repeat center center / cover;
+	height: 100vh;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+.aligner {
+	text-align: center;
+}
+
+.centro {
+	margin: 0 auto;
+}
+
+.f18px {
+	font-size: 18px;
+}
+
+.fa-camera-retro {
+	color: blue;
+}

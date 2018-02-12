@@ -104,6 +104,7 @@ article {
 	margin-left: -161.5px;
 	top: 50%;
 	margin-top: -165.5px;
+	/*border: 1px solid red;*/
 }
 
 .icon1 {
@@ -173,10 +174,11 @@ h2 {
 	padding-top: 58px;
 	text-transform: uppercase;
 	color: #e7e4bb;
+	/*border: 1px solid red;*/
 }
 
 #program {
-	background: url('../images/bg2.jpg') repeat;
+	background: #8C8954 /*url('../images/bg2.jpg') no-repeat*/;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: #e7e4bb;
@@ -285,6 +287,10 @@ h2 {
 	left: 50%;
 	margin-left: -483px;
 	top: -140px;
+}
+
+.man_sm {
+	display: none;
 }
 
 

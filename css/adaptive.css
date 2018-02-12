@@ -1,0 +1,183 @@
+@media screen and (max-width:1200px) {
+
+	article {
+		width: 90%;
+	}
+	.learn {
+		background: url('../images/bg4.jpg') repeat;
+	}
+	.man {
+		display: none;
+	}
+	.man_sm {
+		display: inline-block;
+		position: absolute;
+		/*top: -10px;*/
+		left: 50%;
+		margin-left: -483px;
+		top: -140px;
+	}
+	.icons {
+		width: 100%;
+	}
+	.one {
+	width: 290px;
+	margin-right: calc(2*(100% - 290px*3)/6);
+	margin-left: calc((100% - 290px*3)/6);
+	font-size: 15px;
+}
+
+.one:nth-child(2) {
+	margin-right: calc((100% - 290px*3)/6);
+	margin-left: 0;
+}
+
+.one:nth-child(3) {
+	margin-right: 0;
+	margin-left: 0;
+}
+.item {
+		font-size: 13px;
+	}
+
+.item1{
+	left: 0px;
+	
+	
+}
+
+.item2 {
+	
+	left: 0px;
+	
+}
+
+.item3 {
+	
+	right: 0px;
+	
+}
+.item4 {
+	
+	right: 0px;
+	
+}
+
+.act {
+		display: block;
+		/*width: 30%;*/
+		margin: 0px auto 20px auto;
+		margin-top: 20px;
+	}
+	
+
+	
+
+}
+
+@media screen and (max-width:1000px) {
+	
+	#first {
+	background: #e1de99 url('../images/bg1_xs.jpg') no-repeat center center;
+	}
+	.wheel {
+		width: 300px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    top: 50%;
+    margin-top: -300px;
+	}
+	.icon1{
+	/*width: 90%;*/
+	left:20px;
+	top: 460px;
+	/*margin-top: -77.5px;*/
+}
+	.icon2 {
+	right: :20px;
+	top: 460px;
+	}
+
+	.one {
+		float: no;
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 50px;
+	}
+	.cell {
+		display: block;
+		width: 70%;
+		margin: 0px auto 20px auto;
+	}
+	.item {
+		font-size: 14px;
+	}
+	.man_sm {
+		width: 550px;
+		display: inline-block;
+		position: absolute;
+		/*top: -10px;*/
+		left: 50%;
+		margin-left: -275px;
+		top: 50%;
+		margin-top: 50px;
+	}
+	
+}
+
+	@media screen and (max-width:780px) {
+		.icon1, .icon2 {
+			display: none;
+		}
+		.wheel{
+			margin-top: -200px;
+		}
+
+		.man_sm {
+		width: 300px;
+		/*display: inline-block;*/
+		/*position: absolute;*/
+		/*top: -10px;*/
+		left: 50%;
+		margin-left: -150px;
+		top: 0;
+		margin-top: 0px;
+	}
+		
+		#learn article h2 {
+			margin-bottom: 150px;
+		}
+
+		.item {
+		width: 49%;
+		font-size: 14px;
+		/*position: relative;*/
+		/*border: 1px solid black;*/
+		}
+
+		.item:first-child {
+			margin: 50px;
+		}
+
+		.item1, .item2, .item3, .item4 {
+			position: static;
+			float: left;
+			margin-top: 
+		}
+
+		section#program, section#learn, section#red {
+			padding-top: 10px;
+		}
+
+		h2 {
+			
+			font-size: 25px;
+		}
+
+
+	
+
+
+	}
+

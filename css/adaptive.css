@@ -170,11 +170,15 @@
 }
 
 @media screen and (max-width: 600px) {
+
   #learn article h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
+
   .item {
     margin-top: 20px;
+    background: none;
+    padding-left: 5px;
   }
 
   #need div {
